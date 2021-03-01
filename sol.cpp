@@ -25,7 +25,7 @@ int main() {
 			if (cnt >= d && day <= last_day) {
 				// start the days depending on the value of 'd'
 				// then store the current day in every cell of the table 2-d array
-				// stop storing once the 'cnt' variable is greater than the last day
+				// stop storing once the 'day' variable is greater than the last day
 				table[j][i] = day++;
 			} else {
 				// otherwise, store 0
